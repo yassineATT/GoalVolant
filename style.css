@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Roboto&family=Teko&display=swap');
+
+/**GLOBAL**/
+
+body {
+    font-family: 'Roboto';
+}
+
+
+.logo {
+    font-size: 7rem;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-top: 20%;
+    text-align: center;
+    color: #EEEDDE;
+    font-family: 'New Rocker';
+    padding: 20px;
+}
+
+h2 {
+    color: #2D2424;
+    padding-bottom: 20px;
+}
+
+/****/
+
+#home {
+    padding-bottom: 8%;
+    background-image: url(img/fondrock.png);
+    background-size : 100% 100%;
+    object-fit: fill;
+}
+
+#information{
+    background: rgb(230,230,230);
+    background: radial-gradient(circle, rgba(230,230,230,1) 29%, rgba(242,242,242,1) 82%);
+}
+
+
+#actualite {
+    background: linear-gradient(112.1deg, #414141 70.4%, #000000 );
+    padding: 30px;
+}
+
+#footer {
+    text-align: center;
+    background: rgb(230,230,230);
+    background: radial-gradient(circle, rgba(230,230,230,1) 29%, rgba(242,242,242,1) 82%);
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    color: #EEEDDE;   
+}
+
+
+.p-groupe {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 9% 0;
+    color: white;
+    font-size: 2.2rem;
+}
+
+
+.p-main {
+    margin: 0 auto;
+}
+
+.icon{
+    margin: 0 20px;
+    font-size: 50px;
+    --fa-animation-duration: 10s;
+}
+
+.espace {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.espace-3 {
+    padding: 50px 0;
+    margin-left: 20px;
+}
+
+#information h3{
+    font-size: 1.2rem;
+}
+
+#actualite h2 {
+    color: #dddab0;
+    font-size: 2rem;
+    font-family: 'New Rocker';
+}
+
+#inp1{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    border: 1px solid #636161;
+    font-size: 0.75rem;
+
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    font-size: 0.9rem;
+    font-family: 'Roboto';
+    border: 0px;
+}
+
+.btn:hover{
+    background-color: #8b8b8b;
+    border: 0px;
+}
+
+.fa-spotify{
+    color: green;
+}
+
+.fa-youtube{
+    color: red;
+}
+
+.fa-deezer{
+    color: black;
+}
+
+.cpright{
+    color: white;
+    background: linear-gradient(112.1deg, #414141 70.4%, #000000 );
+}
